@@ -1,0 +1,32 @@
+.header {
+  height: 80px !important;
+  box-shadow: none !important;
+  .v-toolbar__content {
+    height: 80px !important;
+    background-color: white;
+    padding-left: 100px;
+  }
+  background-color: white;
+}
+
+.main {
+  background-color: #F5F8FA;
+  padding-top: 80px !important;
+}
+
+.side-bar {
+  height: 100vh;
+  background-color: #7242E6;
+  width: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+.table {
+  margin-top: 30px;
+  .v-data-footer__select {
+    visibility: hidden;
+  }
+}
